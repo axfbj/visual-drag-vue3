@@ -1,54 +1,18 @@
-一个低代码平台的前端部分，靠拖拉拽生成页面。
-## 功能点
-这是本项目具有的功能点，如果想了解详情请参考本项目的四篇文档，每个功能点都有不同程度的描述以及动图帮助你理解。
-1. 编辑器
-1. 自定义组件（文本、图片、矩形、圆形、直线、星形、三角形、按钮、表格、组合）
-1. 接口请求（通过接口请求组件数据）
-1. 组件联动
-1. 拖拽
-1. 删除组件、调整图层层级
-1. 放大缩小
-1. 撤消、重做
-1. 组件属性设置
-1. 吸附
-1. 预览、保存代码
-1. 绑定事件
-1. 绑定动画
-1. 拖拽旋转
-1. 复制粘贴剪切
-1. 多个组件的组合和拆分
-1. 锁定组件
-1. 网格线
+# Vue 3 + TypeScript + Vite
 
-## 在线 DEMO
-* [预览入口（Github）不翻墙可能速度慢](https://woai3c.github.io/visual-drag-demo)
+This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
 
-## 文档
-* [可视化拖拽组件库一些技术要点原理分析](https://github.com/woai3c/Front-end-articles/issues/19)
-* [可视化拖拽组件库一些技术要点原理分析（二）](https://github.com/woai3c/Front-end-articles/issues/20)
-* [可视化拖拽组件库一些技术要点原理分析（三）](https://github.com/woai3c/Front-end-articles/issues/21)
-* [可视化拖拽组件库一些技术要点原理分析（四）](https://github.com/woai3c/Front-end-articles/issues/33)
+## Recommended IDE Setup
 
-## 开发
-### 安装
-```
-npm i
-```
-### 运行
-```
-npm run dev
-```
-### 打包
-```
-npm run build
-```
+- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
 
-## License
-MIT
+## Type Support For `.vue` Imports in TS
 
-## 赞助
-![](https://github.com/woai3c/nand2tetris/blob/master/img/wx.jpg)
-![](https://github.com/woai3c/nand2tetris/blob/master/img/zfb.jpg)
+TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin) to make the TypeScript language service aware of `.vue` types.
 
+If the standalone TypeScript plugin doesn't feel fast enough to you, Volar has also implemented a [Take Over Mode](https://github.com/johnsoncodehk/volar/discussions/471#discussioncomment-1361669) that is more performant. You can enable it by the following steps:
 
-
+1. Disable the built-in TypeScript Extension
+   1. Run `Extensions: Show Built-in Extensions` from VSCode's command palette
+   2. Find `TypeScript and JavaScript Language Features`, right click and select `Disable (Workspace)`
+2. Reload the VSCode window by running `Developer: Reload Window` from the command palette.
